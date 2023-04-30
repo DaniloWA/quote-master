@@ -1,0 +1,28 @@
+{
+    "name": "danilowa/quote-master",
+    "description": "A simple package to get quotes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danilowa\\QuoteMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Oliveira",
+            "email": "Daniloworkdev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
